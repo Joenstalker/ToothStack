@@ -5,7 +5,7 @@
 @section('content')
     <div class="text-center mb-4">
         <h2 class="fw-bold mb-2" style="color: #1f2937;">Create Account</h2>
-        <p class="text-muted mb-0">Sign up to get started with ToothStack</p>
+        <p class="text-muted mb-0">Sign up to get started with CUDAL-BLANCO</p>
     </div>
 
     <form method="POST" action="{{ route('register') }}" id="registerForm">

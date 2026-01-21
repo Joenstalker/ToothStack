@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'ToothStack') }} - @yield('title', 'Authentication')</title>
+    <title>CUDAL-BLANCO DENTAL CLINIC - @yield('title', 'Authentication')</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -389,9 +389,9 @@
             <div class="auth-header">
                 <div class="logo">
                     <i class="fas fa-tooth"></i>
-                    <span>ToothStack</span>
+                    <span>CUDAL-BLANCO</span>
                 </div>
-                <p class="mb-0">Dental Clinic Management System</p>
+                <p class="mb-0">DENTAL CLINIC</p>
             </div>
             <div class="auth-body">
                 @if(session('success'))
