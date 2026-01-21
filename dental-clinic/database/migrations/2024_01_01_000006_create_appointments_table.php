@@ -10,7 +10,7 @@ return new class extends Migration
     {
         // Drop table if it exists from previous failed migration
         Schema::dropIfExists('appointments');
-        
+
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
             $table->foreignId('patient_id')->constrained('users')->onDelete('restrict');
@@ -24,7 +24,7 @@ return new class extends Migration
                 'confirmed',
                 'completed',
                 'cancelled',
-                'no_show'
+                'no_show',
             ])->default('pending');
             $table->text('notes')->nullable();
             $table->text('treatment_notes')->nullable();
